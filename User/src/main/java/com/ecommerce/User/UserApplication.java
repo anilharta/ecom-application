@@ -10,7 +10,7 @@ public class UserApplication {
 
 	public static void main(String[] args) {
 		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Kolkata"));
-		System.out.println("Forced JVM Timezone = " + TimeZone.getDefault().getID());
+		System.out.println("Forced JVM Timezone => " + TimeZone.getDefault().getID());
 		SpringApplication.run(UserApplication.class, args);
 	}
 }
